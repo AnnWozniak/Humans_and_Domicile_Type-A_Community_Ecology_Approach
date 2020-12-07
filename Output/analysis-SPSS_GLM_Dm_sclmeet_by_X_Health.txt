@@ -1,0 +1,33 @@
+
+Call:
+glm(formula = X_health ~ domicil + sclmeet, family = "binomial", 
+    data = spss_data)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-2.2029   0.4846   0.6823   0.7927   0.9208  
+
+Coefficients:
+                                        Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                              2.16976    0.08090  26.820  < 2e-16 ***
+domicilSuburbs or outskirts of big city -0.16145    0.02266  -7.124 1.05e-12 ***
+domicilTown or small city                0.11367    0.02353   4.831 1.36e-06 ***
+domicilCountry village                   0.16412    0.02371   6.922 4.46e-12 ***
+domicilFarm or home in countryside      -0.19371    0.02262  -8.564  < 2e-16 ***
+sclmeetLess than once a month           -0.25113    0.08593  -2.923  0.00347 ** 
+sclmeetOnce a month                     -0.62645    0.08372  -7.483 7.26e-14 ***
+sclmeetSeveral times a month            -0.83054    0.08144 -10.198  < 2e-16 ***
+sclmeetOnce a week                      -0.99378    0.08134 -12.218  < 2e-16 ***
+sclmeetSeveral times a week             -1.17830    0.08072 -14.598  < 2e-16 ***
+sclmeetEvery day                        -1.33742    0.08149 -16.411  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 116448  on 106319  degrees of freedom
+Residual deviance: 114311  on 106309  degrees of freedom
+AIC: 114333
+
+Number of Fisher Scoring iterations: 4
+

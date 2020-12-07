@@ -1,0 +1,32 @@
+
+Call:
+glm(formula = X_health ~ happy, family = "binomial", data = spss_data)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-2.2808   0.4027   0.6394   0.7687   0.9853  
+
+Coefficients:
+                     Estimate Std. Error z value Pr(>|z|)    
+(Intercept)           2.28916    0.13546  16.899  < 2e-16 ***
+happy1               -0.14153    0.19068  -0.742  0.45793    
+happy2                0.23486    0.17268   1.360  0.17380    
+happy3                0.18204    0.15451   1.178  0.23873    
+happy4                0.03316    0.14895   0.223  0.82384    
+happy5               -0.07660    0.13953  -0.549  0.58301    
+happy6               -0.42545    0.13913  -3.058  0.00223 ** 
+happy7               -0.80545    0.13676  -5.890 3.87e-09 ***
+happy8               -1.22131    0.13609  -8.974  < 2e-16 ***
+happy9               -1.69850    0.13632 -12.460  < 2e-16 ***
+happyExtremely happy -1.81891    0.13680 -13.296  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 116448  on 106319  degrees of freedom
+Residual deviance: 110349  on 106309  degrees of freedom
+AIC: 110371
+
+Number of Fisher Scoring iterations: 4
+
