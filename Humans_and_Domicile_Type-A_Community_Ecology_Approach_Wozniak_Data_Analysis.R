@@ -153,7 +153,7 @@ kruskal.test(mdAPW$Health_scale_avg ~ mdAPW$Happy_scale_avg)
 graph_linear_Happy_by_Health <- ggplot(mdAPW, aes(x = Happy_scale_avg, y = -1*Health_scale_avg)) +
   geom_smooth(method = "lm", col = "red") +
   geom_jitter(width = 0.05, height = 0.05) +
-  labs(x = 'Social Scale', y = 'Health Scale') +
+  labs(x = 'Happiness Scale', y = 'Health Scale') +
   ggtitle('Happiness by Health Scale') +
   theme_classic()
 graph_linear_Happy_by_Health
